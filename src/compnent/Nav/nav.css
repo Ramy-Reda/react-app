@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    border-bottom: 1px solid rgba(0, 0 , 0, 0.2);
+    box-shadow: 2px 1px 4px 0px rgb(0 0 0 / 20%);
+    background: transparent;
+    margin-top: -26px;
+    position: fixed;
+    top: 26px;
+    left: 0;
+    z-index: 999999;
+    width: 100%;
+}
+
+.nav .list-items{
+    float: right
+}
+.nav .logo h3{
+    font-weight: 700;
+    font-family: cursive;
+    color: #4b8ef1
+}
+.nav .list-items .item, .logo h3{
+    float: left; 
+    margin: 14px;
+}
+
+.nav .list-items .item a{
+    text-decoration: none;
+    color: #4b8ef1;
+    font-size: 21px;
+    font-weight: 600;;
+}
+.sign{
+    background: linear-gradient(44deg, rgb(91 104 235), rgb(40 225 253));
+    width: 108px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+.sign a{
+    color: #fff;
+}
+.res {
+    display: none;
+}
+@media (max-width: 1070px) {
+    .list-items{
+        display: none;
+        position: absolute;
+        top: 58px;
+        background: #82a8c9d1;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 10px;
+    }
+    .list-items .item:not(:last-child){
+        display: block;
+        width: 90%;
+        text-align: center;
+        background: aliceblue;
+        border-radius: 6px;
+        padding: 5px;
+        border-right: 3.5px solid #f31d0dd6;
+    }
+    .list-items .item:hover{
+        transition: all 0.3s;
+        padding: 8px;
+    }
+    .res {
+        display: inline-block;
+        float: right;
+        margin-top: -43px;
+    }
+    .res .hide{
+        display: none;
+    }
+    .res .show,.res .hide{
+        font-size: 25px;
+        font-weight: 800;
+        cursor: pointer;
+        color: #4b8ef1;
+        user-select: none;
+    }
+}

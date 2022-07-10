@@ -1,0 +1,30 @@
+#newsLetter{
+    background: url(../../../public/images/footer-bg.png) no-repeat;
+    background-size: cover;
+}
+#newsLetter .new{
+    margin-top:300px;
+}
+#newsLetter .new p{
+    width: 700px;
+    margin: auto;
+    max-width: 100%;
+}
+
+#newsLetter input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #FFF;
+    color: #fff;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    width: 284px;
+}
+#newsLetter button{
+    width: 203px;
+}
+
+#newsLetter li{
+    cursor: pointer;
+}
+

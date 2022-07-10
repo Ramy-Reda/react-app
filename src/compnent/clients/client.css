@@ -1,0 +1,67 @@
+.client{
+    margin-top: 85px;
+    margin-bottom: -292px;
+}
+.client .num{
+    margin-top: -71px;
+    margin-right: 36px;
+}
+.client .rel{
+    position: relative;
+    cursor: pointer;
+    margin-top: 33px
+}
+.client .job{
+    position: absolute;
+    top: 9px;
+    left: 51%;
+}
+.client h5{
+    font-weight: normal;
+}
+.client .job, .client .date{
+    color: #999 !important;
+}
+.client .img-bottom{position: relative;z-index: -1; left:35px;transition: all 0.3s}
+.client .img-bottom img:first-child{
+    border-radius: 73px;
+    margin-bottom: 20px
+}
+.client .img-bottom img:last-child{
+    border-radius:50%
+}
+.client .info .text{
+    position: relative;
+    top: -435px;
+    left: 58px;
+}
+.client .info .text p:first-child{
+    max-width: 340px
+}
+.client .info .text .word{
+    margin-top: 200px;
+    margin-left: 180px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Active */
+.client .active h5, .client .active .num{
+    color: #5b68eb;
+}
+
+.text{
+    margin-left: 30px;
+}
+.text .write{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.text .word p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}

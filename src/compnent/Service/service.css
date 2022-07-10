@@ -1,0 +1,91 @@
+#services .image1{
+    margin-left: 78px;
+}
+
+#services .heading{
+    margin-top: -110px
+}
+
+#services .heading h2{
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+#services .heading p{
+    width: 50%;
+    margin: 20px auto;
+}
+
+@media (min-width: 768px){
+    .col-md-3{
+        width:24%;
+        margin-right: 1%
+    }
+}
+
+#services .box{
+    padding: 25px;
+    border-radius: 22px;
+    border-top-right-radius: 78px;
+    transition: all .5s
+}
+
+#services .box .icon{
+    margin: 10px;
+    text-align: left;
+}
+
+#services .box .icon .img1, #services .box .icon .img2{
+    text-align: left;
+}
+
+#services .box .icon .img2 {
+    display: none;
+}
+
+#services .box:hover{
+    background: url("../../../public/images/service-bg.jpg") no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
+#services .box h4{
+    margin-top: 21px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: -1px;
+    transition: all .3s;
+}
+#services .box:hover  h4{
+    color:white;
+}
+
+#services .box p{
+    text-align: left;
+    color: #666;
+    margin-top: 16px;
+    transition: all .3s;
+}
+#services .box:hover  p{
+    color:white;
+}
+
+#services .box button{
+    float: left;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    color: #2f94ff;
+    transition: all .3s;
+}
+#services .box:hover  button{
+    color:white;
+}
+
+#services .box:hover .img2{
+    display: inline-block
+}
+#services .box:hover .img1{
+    display:none;
+    
+}
+

@@ -1,0 +1,228 @@
+{
+    "service": {
+        "serviceTitles": [
+            {
+                "id" : 1,
+                "image1": "images/services-right-dec.png",
+                "title" : "Amazing Services & Features For You",
+                "imageHeading": "images/heading-line-dec.png",
+                "body": "If you need the greatest collection of HTML templates for your business, please visit TooCSS Blog. If you need to have a contact form PHP script, go to our contact page for more information."
+            }
+        ],
+    "serviceBody":[
+    {
+        "id": 1,
+        "icon": "images/service-icon-01.png",
+        "iconHov":"images/service-icon-hover-01.png",
+        "title": "App Maintenance",
+        "body": "You are not allowed to redistribute this template ZIP file on any other website.",
+        "link": "read more"
+    }, 
+    {
+        "id": 2,
+        "icon": "images/service-icon-02.png",
+        "iconHov":"images/service-icon-hover-02.png",
+        "title": "Rocket Speed of App",
+        "body": "You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.",
+        "link": "read more"
+    },
+    {
+        "id": 3,
+        "icon": "images/service-icon-03.png",
+        "iconHov":"images/service-icon-hover-03.png",
+        "title": "Multi Workflow Idea",
+        "body": "If this template is beneficial for your work, please support us a little via PayPal. Thank you.",
+        "link": "read more"
+    },
+    {
+        "id": 4,
+        "icon": "images/service-icon-04.png",
+        "iconHov":"images/service-icon-hover-04.png",
+        "title": "24/7 Help & Support",
+        "body": "Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.",
+        "link": "read more"
+    }
+    ],
+    "imageLeft":"images/services-left-dec.png"
+    },
+    "about" : {
+            "headingAbout":[{
+                "id" :1 ,
+            "title" : "About What We Do & Who We Are",
+            "imageHeading": "images/heading-line-dec.png",
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna."
+            }],
+            "des" : {
+                "left" : [
+                    {
+                        "id" : 1,
+                        "link" : "Maintance Problems",
+                        "text" : "Create By Ramy"
+                    },
+                    {
+                        "id" : 2,
+                        "link" : "24/7 Support & Help",
+                        "text" : "Create By Ramy"
+                    },
+                    {
+                        "id" : 3,
+                        "link" : "Fixing Issues About",
+                        "text" : "Create By Ramy"
+                    },
+                    {
+                        "id" : 4,
+                        "link" : "Co. Development",
+                        "text" : "Create By Ramy"
+                    }
+                ],
+                "right" :[ {
+                    "id" : 1,
+                    "bottom" : "images/about-bg.jpg",
+                    "top" : "images/about-right-dec.png"
+                }]
+            }
+        },
+        "Clients" : {
+            "header" : {
+                "title" : "Check What The Clients Say About Our App Dev",
+                "image" : "images/heading-line-dec.png",
+                "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna."
+            },
+            "body" : {
+                "left" : [
+                    {
+                        "id" : "1",
+                        "title" : "David Martino Co",
+                        "date" : "30 November 2021",
+                        "job" : "Financial Apps",
+                        "number" : "4.8"
+                    },
+                    {
+                        "id" : "2",
+                        "title" : "Jake Harris Nyo",
+                        "date" : "29 November 2021",
+                        "job" : "igital Business",
+                        "number" : "6"
+                    },
+                    {
+                        "id" : "3",
+                        "title" : "May Catherina",
+                        "date" : "27 November 2021",
+                        "job" : "Business & Economics",
+                        "number" : "5"
+                    },
+                    {
+                        "id" : "4",
+                        "title" : "Random User",
+                        "date" : "24 November 202",
+                        "job" : "New App Ecosystem",
+                        "number" : "4.9"
+                    },
+                    {
+                        "id" : "5",
+                        "title" : "Mark Amber Do",
+                        "date" : "21 November 2021",
+                        "job" : "Web Development",
+                        "number" : "4.4"
+                    }
+                ],
+                "right" : {
+                    "image" : {
+                        "text" : "images/client-bg.png",
+                        "user" : "images/client-image.jpg"
+                    },
+                    "text" : [
+                        {
+                            "id" : 1,
+                            "text" : "“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”",
+                            "name" : "David Martino",
+                            "job" : "CEO of David Company"
+                        },  {
+                            "id" : 2,
+                            "text" : "“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”",
+                            "name" : "Jake H. Nyo",
+                            "job" : "CTO of Digital Company"
+                        },
+                        {
+                            "id" : 3,
+                            "text" : "“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”",
+                            "name" : "May C.",
+                            "job" : "Founder of Catherina Co"
+                        },
+                        {
+                            "id" : 4,
+                            "text" : "“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”",
+                            "name" : "Random Staff",
+                            "job" : "Manager, Digital CompanyCEO of David Company"
+                        },  {
+                            "id" : 5,
+                            "text" : "“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”",
+                            "name" : "Mark Am",
+                            "job" : "CTO, Amber Do Company"
+                        }
+                    ]
+                }
+            }
+        },
+    "pricing" : {
+        "header" : [{
+            "id" :1,
+            "title" : "We Have The Best Pre-Order Prices You Can Get",
+            "imageHeading": "images/heading-line-dec.png",
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna."
+        }],
+        "body" : [
+            {
+                "id" : 1,
+                "price" : "$15",
+                "topImage" : "images/regular-table-top.png",
+                "title" : "Stander plan App",
+                "image" : "images/pricing-table-01.png",
+                "text" : "Lorem Ipsum Dolores",
+                "option" : "50 TB of Storage",
+                "option2" :"Life-time Support",
+                "option3" : "Premium Add-Ons",
+                "option4" : "Fastest Network",
+                "option5":"More Options" ,
+                "bottom" : "images/regular-table-bottom.png",
+                "button" : "Purchase This Plan Now"
+            },  {
+                "id" : 2,
+                "price" : "$25",
+                "topImage" : "images/pro-table-top.png",
+                "title" : "Business Plan App",
+                "image" : "images/pricing-table-01.png",
+                "text" : "Lorem Ipsum Dolores",
+                "option" : "50 TB of Storage",
+                "option2" :"Life-time Support",
+                "option3" : "Premium Add-Ons",
+                "option4" : "Fastest Network",
+                "option5":"More Options" ,
+                "bottom" : "images/regular-table-bottom.png",
+                "button" : "Purchase This Plan Now"
+            },  {
+                "id" : 3,
+                "price" : "$50",
+                "topImage" : "images/regular-table-top.png",
+                "title" : "Stander plan App",
+                "image" : "images/pricing-table-01.png",
+                "text" : "Lorem Ipsum Dolores",
+                "option" : "20 TB of Storage",
+                "option2" : "Life-time Support",
+                "option3" :  "Premium Add-Ons",
+                "option4" :  "Fastest Network",
+                "option5" :  "More Options",
+                "bottom" : "images/regular-table-bottom.png",
+                "button" : "Purchase This Plan Now"
+            }
+        ]
+    },
+    "newsLetter" : {
+        "title" : "Join Our Mailing List To Receive The News & Latest Trends"
+    },
+    "Signe": [{
+        "name": "",
+        "email": "",
+        "password" : ""
+    }]
+}
